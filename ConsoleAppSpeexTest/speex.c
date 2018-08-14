@@ -21,7 +21,7 @@ extern long long spx_mips;
 #include <math.h>  
 
 //C++中利用Speex进行音频压缩
-//测试：E:\myCode\speex\m0000.wav  E:\myCode\speex\m0000Decode.wav E:\myCode\speex\m0000Encode.wav  
+//测试：E:\myCode\speex\m0000.wav E:\myCode\speex\m0000Decode.wav E:\myCode\speex\m0000Encode.wav  
 int main(int argc, char **argv)
 {
 	char *inFile, *outFile, *bitsFile;
