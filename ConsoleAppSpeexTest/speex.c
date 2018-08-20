@@ -16,9 +16,8 @@ extern long long spx_mips;
 #define FRAME_SIZE 160  
 #include <math.h>  
 
-//dlq ceshi
 //C++中利用Speex进行音频压缩
-//测试：E:\myCode\speex\m0000.wav E:\myCode\speex\m0000Decode.wav E:\myCode\speex\m0000Encode.wav  
+//测试命令参数：m0000.wav  m0000Decode.wav m0000Encode.wav   
 int main(int argc, char **argv)
 {
 	char *inFile, *outFile, *bitsFile;
